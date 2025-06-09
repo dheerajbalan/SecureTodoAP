@@ -1,0 +1,39 @@
+09-06-2025 03.11.45 PM - IP: 127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.11.49 PM - IP: 127.0.0.1, Path: /todos, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.11.51 PM - IP: 127.0.0.1, Path: /signup, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.13.33 PM - IP: 127.0.0.1, Path: /todos/bulk, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.38.32 PM - IP: ::1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.34 PM - IP: ::1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.34 PM - IP: ::1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.34 PM - IP: ::1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.35 PM - IP: ::1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.52 PM - IP: ::ffff:127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.53 PM - IP: ::ffff:127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.38.54 PM - IP: ::ffff:127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.43.09 PM - IP: 127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404
+09-06-2025 03.43.31 PM - IP: 127.0.0.1, Path: /todos, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.43.58 PM - IP: 127.0.0.1, Path: /login, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 401
+09-06-2025 03.44.29 PM - IP: 127.0.0.1, Path: /signup, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200
+09-06-2025 03.47.16 PM - IP: 127.0.0.1, Path: /, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 404 Body:  
+09-06-2025 03.47.26 PM - IP: 127.0.0.1, Path: /signup, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200 Body: {
+  "username": "string",
+  "password": "string"
+} 
+09-06-2025 03.47.48 PM - IP: 127.0.0.1, Path: /login, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 200 Body: {
+  "username": "string",
+  "password": "string"
+} 
+09-06-2025 03.48.06 PM - IP: 127.0.0.1, Path: /todos, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 400 Body: {
+  "id": 0,
+  "name": "string",
+  "dueDate": "2025-06-09T10:18:04.610Z",
+  "isComplete": true
+} 
+09-06-2025 03.48.41 PM - IP: 127.0.0.1, Path: /todos/bulk, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0, Response Code: 201 Body: [
+  {
+    "id": 0,
+    "name": "string",
+    "dueDate": "2025-06-09T10:18:38.994Z",
+    "isComplete": true
+  }
+] 

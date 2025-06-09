@@ -1,0 +1,49 @@
+GET http://localhost:5122/todos
+
+GET http://localhost:5122/todos/1
+GET http://localhost:5122/todos/2
+
+GET http://localhost:5122/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImRoZWVyYWoiLCJzdWIiOiJkaGVlcmFqIiwibmJmIjoxNzQ5Mzg0MjMwLCJleHAiOjE3NDkzODc4MzAsImlhdCI6MTc0OTM4NDIzMH0.3U9xK17mpV_qrNn0I2wrOXR7HB_zcdQhN-TPY5T_O0s
+### Add Todo
+POST http://localhost:5122/todos/bulk
+Content-Type: application/json
+
+[
+  {
+    "Id": 1,
+    "Name": "<script>",
+    "DueDate": "2025-07-15T00:00:00",
+    "IsComplete": false
+  },
+  {
+    "Id": 2,
+    "Name": "is he really not working?",
+    "DueDate": "2025-07-15T00:00:00",
+    "IsComplete": false
+  }
+]
+
+
+### Get All Todos
+DELETE http://localhost:5122/todos/1
+
+### Login Request (Corrected)
+POST http://localhost:5122/login
+Content-Type: application/json
+
+{
+  "username": "dheeraj",
+  "password": "123456"
+}
+
+### Login Request (Corrected)
+POST http://localhost:5122/signup
+Content-Type: application/json
+
+{
+  "username": "dheeraj",
+  "password": "123456"
+}
+
+
