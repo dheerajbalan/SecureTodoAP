@@ -49,5 +49,32 @@ This project also includes offensive security simulation features to help unders
 1. Clone the repository:
 
    bash
-         git clone https://github.com/dheerajbalan/SecureTodoAPI.git
-         cd SecureTodoAPI
+
+        git clone https://github.com/dheerajbalan/SecureTodoAPI.git
+        cd SecureTodoAPI
+
+
+
+        dotnet run
+
+
+       https://localhost:<port>/swagger
+
+🔑 Credentials (Demo)
+{
+  "username": "dheeraj",
+  "password": "123456"
+}
+
+| File            | Purpose                          |
+| --------------- | -------------------------------- |
+| `Program.cs`    | Main API logic and middleware    |
+| `TodoList.db`   | SQLite database                  |
+| `logs.txt`      | Sniffed request logs (POST only) |
+| `webpage1.http` | HTTP request testing collection  |
+
+📜 License
+
+MIT License – Free to use and modify for educational or personal use.
+
+
